@@ -1,0 +1,56 @@
+{
+  "years": {
+    "2026": {
+      "stop_reason": "time_limit_reached_before_next_scan",
+      "runtime_seconds": 11652.326,
+      "resume_seed_step3_rows": 18,
+      "accepted_new_step3_suggestions": 8,
+      "total_step3_rows_after_resume": 26,
+      "final_combined_reference_scan": {
+        "accepted_change_rows": 26,
+        "current_route_exact_pax_minutes_saved": 3902.280831,
+        "current_route_exact_weight_touched": 7369.403139,
+        "current_route_exact_touched_paths": 137650,
+        "current_route_exact_invalidated_daily_pax": 0.0,
+        "current_route_exact_invalidated_paths": 0,
+        "invalidated_by_physical_shift_id": {},
+        "current_route_exact_mean_total_delta_min": -0.529524679,
+        "current_route_exact_rolling_share_delta": 0.012448328,
+        "scan_source": "reference_path_cache"
+      }
+    },
+    "2035": {
+      "stop_reason": "time_limit_reached_before_next_scan",
+      "runtime_seconds": 18692.43,
+      "resume_seed_step3_rows": 7,
+      "accepted_new_step3_suggestions": 9,
+      "total_step3_rows_after_resume": 16,
+      "final_combined_reference_scan": {
+        "accepted_change_rows": 16,
+        "current_route_exact_pax_minutes_saved": 6337.233071,
+        "current_route_exact_weight_touched": 10695.812827,
+        "current_route_exact_touched_paths": 25580,
+        "current_route_exact_invalidated_daily_pax": 0.0,
+        "current_route_exact_invalidated_paths": 0,
+        "invalidated_by_physical_shift_id": {},
+        "current_route_exact_mean_total_delta_min": -0.592496631,
+        "current_route_exact_rolling_share_delta": 0.024353978,
+        "scan_source": "reference_path_cache"
+      }
+    }
+  },
+  "created_outputs": {
+    "new": {
+      "path": "<USER_HOME>/iCloud Drive (Archive)/Documents/Documents - Matthias’s 16\" MacBook Pro (246)/Paper Pythons/Master Thesis/2nd Half of Project (Comparison 2026 and 2035)/transfer_optimization_tables/STEP3_SEARCH_RESUME_3H_2026_5H_2035/Step3_ResumeNewTimetableChanges_2026_2035.csv",
+      "rows": 17
+    },
+    "all": {
+      "path": "<USER_HOME>/iCloud Drive (Archive)/Documents/Documents - Matthias’s 16\" MacBook Pro (246)/Paper Pythons/Master Thesis/2nd Half of Project (Comparison 2026 and 2035)/transfer_optimization_tables/STEP3_SEARCH_RESUME_3H_2026_5H_2035/Step3_ResumeAllTimetableChanges_2026_2035.csv",
+      "rows": 42
+    },
+    "latest": {
+      "path": "<USER_HOME>/iCloud Drive (Archive)/Documents/Documents - Matthias’s 16\" MacBook Pro (246)/Paper Pythons/Master Thesis/2nd Half of Project (Comparison 2026 and 2035)/transfer_optimization_tables/STEP3_SEARCH_RESUME_3H_2026_5H_2035/Step3_ResumeLatestMarginalCandidateScores_2026_2035.csv",
+      "rows": 6245
+    }
+  }
+}

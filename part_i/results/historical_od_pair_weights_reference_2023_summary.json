@@ -1,0 +1,632 @@
+{
+  "referenceYear": "2023",
+  "weightModel": "npvm_2023_observed_hybrid_selected_station_projection_with_same_agglomeration_distance_attenuation",
+  "sameClusterMode": "attenuate",
+  "sameClusterDistanceScaleKm": 60.0,
+  "masterStationCount": 250,
+  "analysisStationCount": 131,
+  "analysisClusterCount": 91,
+  "activePairCount": 17030,
+  "excludedPairCount": 0,
+  "activeSameClusterPairCount": 190,
+  "projectedWeightSum": 954177.7300633932,
+  "rawSelectedInterclusterTrips": 842225.4305843628,
+  "rawSelectedSameClusterTrips": 754128.0884209482,
+  "attenuatedSameClusterTrips": 111952.29947902825,
+  "sameClusterRawShareOfSelectedTrips": 0.47240669403281416,
+  "sameClusterExcludedShareOfSelectedRawTrips": 0.47240669403281416,
+  "sameClusterRetainedShareOfSelectedRawTrips": 0.07013001703331088,
+  "clusterPairCount": 43890,
+  "sameClusterClusterCount": 19,
+  "shareDiagnostics": {
+    "selectedStationsByCluster": {
+      "AGGL2020:261": [
+        "Biberbrugg",
+        "Bülach",
+        "Dietikon",
+        "Pfäffikon SZ",
+        "Thalwil",
+        "Wädenswil",
+        "Zürich Altstetten",
+        "Zürich Flughafen",
+        "Zürich HB",
+        "Zürich Oerlikon"
+      ],
+      "AGGL2020:230": [
+        "Winterthur"
+      ],
+      "AGGL2020:351": [
+        "Bern",
+        "Fraubrunnen",
+        "Jegenstorf",
+        "Konolfingen"
+      ],
+      "AGGL2020:2581": [
+        "Olten",
+        "Zofingen"
+      ],
+      "AGGL2020:1711": [
+        "Baar",
+        "Zug"
+      ],
+      "AGGL2020:6621": [
+        "Genève",
+        "Nyon"
+      ],
+      "AGGL2020:4021": [
+        "Baden",
+        "Brugg AG",
+        "Turgi",
+        "Wettingen"
+      ],
+      "AGGL2020:4001": [
+        "Aarau"
+      ],
+      "AGGL2020:5586": [
+        "Lausanne",
+        "Morges",
+        "Palézieux"
+      ],
+      "AGGL2020:942": [
+        "Thun"
+      ],
+      "AGGL2020:90768": [
+        "Spiez"
+      ],
+      "AGGL2020:94946": [
+        "Weinfelden"
+      ],
+      "AGGL2020:4566": [
+        "Frauenfeld"
+      ],
+      "AGGL2020:3203": [
+        "Gossau SG",
+        "Herisau",
+        "St. Gallen"
+      ],
+      "AGGL2020:2701": [
+        "Basel SBB",
+        "Laufen",
+        "Liestal",
+        "Rheinfelden",
+        "Sissach"
+      ],
+      "AGGL2020:4436": [
+        "Amriswil",
+        "Romanshorn"
+      ],
+      "AGGL2020:1061": [
+        "Luzern"
+      ],
+      "AGGL2020:91362": [
+        "Arth-Goldau"
+      ],
+      "AGGL2020:3293": [
+        "Sargans"
+      ],
+      "AGGL2020:3425": [
+        "Wil SG"
+      ],
+      "AGGL2020:2939": [
+        "Neuhausen",
+        "Schaffhausen"
+      ],
+      "AGGL2020:4201": [
+        "Lenzburg"
+      ],
+      "AGGL2020:6002": [
+        "Ausserberg",
+        "Brig",
+        "Eggerberg",
+        "Visp"
+      ],
+      "AGGL2020:5002": [
+        "Bellinzona"
+      ],
+      "AGGL2020:3336": [
+        "Rapperswil SG"
+      ],
+      "AGGL2020:371": [
+        "Biel/Bienne"
+      ],
+      "AGGL2020:2601": [
+        "Biberist RBS",
+        "Lohn-Lüterkofen",
+        "Solothurn"
+      ],
+      "AGGL2020:6458": [
+        "Neuchâtel"
+      ],
+      "AGGL2020:95401": [
+        "Aigle"
+      ],
+      "AGGL2020:5890": [
+        "Montreux",
+        "Vevey"
+      ],
+      "AGGL2020:5192": [
+        "Lugano"
+      ],
+      "STATION:Bätterkinden": [
+        "Bätterkinden"
+      ],
+      "AGGL2020:93955": [
+        "Landquart"
+      ],
+      "STATION:Andelfingen": [
+        "Andelfingen"
+      ],
+      "AGGL2020:2196": [
+        "Fribourg/Freiburg"
+      ],
+      "AGGL2020:4401": [
+        "Rorschach"
+      ],
+      "STATION:Romont FR": [
+        "Romont FR"
+      ],
+      "STATION:Ziegelbrücke": [
+        "Ziegelbrücke"
+      ],
+      "AGGL2020:581": [
+        "Interlaken Ost",
+        "Interlaken West"
+      ],
+      "AGGL2020:5938": [
+        "Yverdon-les-Bains"
+      ],
+      "AGGL2020:90329": [
+        "Langenthal"
+      ],
+      "AGGL2020:404": [
+        "Burgdorf"
+      ],
+      "AGGL2020:3251": [
+        "Altstätten SG",
+        "Heerbrugg",
+        "St. Margrethen SG"
+      ],
+      "AGGL2020:3271": [
+        "Buchs SG"
+      ],
+      "AGGL2020:6421": [
+        "La Chaux-de-Fonds",
+        "Le Locle"
+      ],
+      "AGGL2020:4671": [
+        "Kreuzlingen"
+      ],
+      "STATION:St-Maurice": [
+        "St-Maurice"
+      ],
+      "AGGL2020:6136": [
+        "Martigny"
+      ],
+      "STATION:Bex": [
+        "Bex"
+      ],
+      "AGGL2020:6266": [
+        "Sion"
+      ],
+      "AGGL2020:6248": [
+        "Sierre/Siders"
+      ],
+      "STATION:Faido": [
+        "Faido"
+      ],
+      "STATION:Airolo": [
+        "Airolo"
+      ],
+      "STATION:Göschenen": [
+        "Göschenen"
+      ],
+      "AGGL2020:6711": [
+        "Delémont"
+      ],
+      "STATION:Moutier": [
+        "Moutier"
+      ],
+      "STATION:Biasca": [
+        "Biasca"
+      ],
+      "AGGL2020:90306": [
+        "Lyss"
+      ],
+      "AGGL2020:1201": [
+        "Erstfeld",
+        "Flüelen"
+      ],
+      "AGGL2020:3901": [
+        "Chur"
+      ],
+      "AGGL2020:2546": [
+        "Grenchen Nord",
+        "Grenchen Süd"
+      ],
+      "STATION:Bad Ragaz": [
+        "Bad Ragaz"
+      ],
+      "STATION:Brunnen": [
+        "Brunnen"
+      ],
+      "AGGL2020:90979": [
+        "Herzogenbuchsee"
+      ],
+      "AGGL2020:94163": [
+        "Frick"
+      ],
+      "STATION:Ins": [
+        "Ins"
+      ],
+      "STATION:Kerzers": [
+        "Kerzers"
+      ],
+      "AGGL2020:92407": [
+        "Oensingen"
+      ],
+      "AGGL2020:5250": [
+        "Chiasso"
+      ],
+      "AGGL2020:2125": [
+        "Bulle"
+      ],
+      "AGGL2020:91103": [
+        "Sursee"
+      ],
+      "STATION:Hohtenn": [
+        "Hohtenn"
+      ],
+      "STATION:Goppenstein": [
+        "Goppenstein"
+      ],
+      "STATION:Kandersteg": [
+        "Kandersteg"
+      ],
+      "STATION:Frutigen": [
+        "Frutigen"
+      ],
+      "STATION:Konstanz": [
+        "Konstanz"
+      ],
+      "STATION:Brienz": [
+        "Brienz"
+      ],
+      "STATION:Leuk": [
+        "Leuk"
+      ],
+      "STATION:Meiringen": [
+        "Meiringen"
+      ],
+      "STATION:Brünig-Hasliberg": [
+        "Brünig-Hasliberg"
+      ],
+      "STATION:St-Imier": [
+        "St-Imier"
+      ],
+      "STATION:Lungern": [
+        "Lungern"
+      ],
+      "STATION:Courtelary": [
+        "Courtelary"
+      ],
+      "STATION:Langnau i.E.": [
+        "Langnau i.E."
+      ],
+      "STATION:Sonceboz-Sombeval": [
+        "Sonceboz-Sombeval"
+      ],
+      "STATION:Giswil": [
+        "Giswil"
+      ],
+      "AGGL2020:91407": [
+        "Sarnen"
+      ],
+      "AGGL2020:93379": [
+        "Wattwil"
+      ],
+      "STATION:Wolhusen": [
+        "Wolhusen"
+      ],
+      "AGGL2020:91331": [
+        "Küssnacht am Rigi"
+      ],
+      "AGGL2020:93339": [
+        "Uznach"
+      ]
+    },
+    "originShareMethodCounts": {
+      "observed_intercluster_origin_share_on_selected_subset": 131
+    },
+    "destinationShareMethodCounts": {
+      "observed_intercluster_destination_share_on_selected_subset": 131
+    },
+    "selectedOriginTotalsByCluster": {
+      "AGGL2020:261": 232451.61605307745,
+      "AGGL2020:230": 47470.73115076539,
+      "AGGL2020:351": 97050.3455817041,
+      "AGGL2020:2581": 22840.119349730965,
+      "AGGL2020:1711": 29672.56530088119,
+      "AGGL2020:6621": 102158.68458960469,
+      "AGGL2020:4021": 46833.2815226672,
+      "AGGL2020:4001": 18914.05540187221,
+      "AGGL2020:5586": 90590.35014999166,
+      "AGGL2020:942": 17905.389810237073,
+      "AGGL2020:90768": 10424.986985163197,
+      "AGGL2020:94946": 8543.440617480615,
+      "AGGL2020:4566": 12043.439017106324,
+      "AGGL2020:3203": 30418.36076237366,
+      "AGGL2020:2701": 62114.91918340798,
+      "AGGL2020:4436": 10711.594346599031,
+      "AGGL2020:1061": 39368.0551841722,
+      "AGGL2020:91362": 6341.391231304293,
+      "AGGL2020:3293": 11333.37625438583,
+      "AGGL2020:3425": 10954.421097481329,
+      "AGGL2020:2939": 13517.051764482676,
+      "AGGL2020:4201": 11685.292035305074,
+      "AGGL2020:6002": 12060.830177140459,
+      "AGGL2020:5002": 6327.793122810015,
+      "AGGL2020:3336": 18298.65803662255,
+      "AGGL2020:371": 17295.209362786612,
+      "AGGL2020:2601": 14772.951827894014,
+      "AGGL2020:6458": 14700.975596000177,
+      "AGGL2020:95401": 7977.945564335717,
+      "AGGL2020:5890": 28111.73481682032,
+      "AGGL2020:5192": 16605.53864949032,
+      "STATION:Bätterkinden": 4252.6842638347725,
+      "AGGL2020:93955": 11534.871218293736,
+      "STATION:Andelfingen": 8628.862816021267,
+      "AGGL2020:2196": 21401.82561267458,
+      "AGGL2020:4401": 10336.046897183855,
+      "STATION:Romont FR": 8187.451072157904,
+      "STATION:Ziegelbrücke": 5183.015963915459,
+      "AGGL2020:581": 8085.076034801512,
+      "AGGL2020:5938": 11574.93843621268,
+      "AGGL2020:90329": 4598.693018340458,
+      "AGGL2020:404": 7917.060123933235,
+      "AGGL2020:3251": 8461.491157396104,
+      "AGGL2020:3271": 6049.0775548755755,
+      "AGGL2020:6421": 7151.990424594194,
+      "AGGL2020:4671": 4969.486516626371,
+      "STATION:St-Maurice": 4931.097566215469,
+      "AGGL2020:6136": 5716.637473524545,
+      "STATION:Bex": 4552.650484117628,
+      "AGGL2020:6266": 10905.950365105407,
+      "AGGL2020:6248": 6133.927429402122,
+      "STATION:Faido": 1073.400064579267,
+      "STATION:Airolo": 1006.0119521529327,
+      "STATION:Göschenen": 1222.441799013261,
+      "AGGL2020:6711": 5665.189119502475,
+      "STATION:Moutier": 3967.4680560921192,
+      "STATION:Biasca": 2403.289767025609,
+      "AGGL2020:90306": 8508.769206125895,
+      "AGGL2020:1201": 3847.806890338211,
+      "AGGL2020:3901": 14980.275756393843,
+      "AGGL2020:2546": 9874.453912785208,
+      "STATION:Bad Ragaz": 8127.396136683291,
+      "STATION:Brunnen": 3543.083645912944,
+      "AGGL2020:90979": 3680.2783853301926,
+      "AGGL2020:94163": 5488.736948366315,
+      "STATION:Ins": 3839.9696796701833,
+      "STATION:Kerzers": 4066.4326087170825,
+      "AGGL2020:92407": 3450.295768628137,
+      "AGGL2020:5250": 6805.493264395464,
+      "AGGL2020:2125": 5308.623695392354,
+      "AGGL2020:91103": 10320.26458409913,
+      "STATION:Hohtenn": 606.9524879189149,
+      "STATION:Goppenstein": 476.3980866720069,
+      "STATION:Kandersteg": 1500.7708227726741,
+      "STATION:Frutigen": 1951.7384317867939,
+      "STATION:Konstanz": 3339.7654590853413,
+      "STATION:Brienz": 1587.5997419586158,
+      "STATION:Leuk": 3145.3167293209194,
+      "STATION:Meiringen": 1357.2364005874654,
+      "STATION:Brünig-Hasliberg": 876.2344098176997,
+      "STATION:St-Imier": 2462.1780018648296,
+      "STATION:Lungern": 897.9428181611823,
+      "STATION:Courtelary": 2662.671509592869,
+      "STATION:Langnau i.E.": 2890.757644870735,
+      "STATION:Sonceboz-Sombeval": 3869.910627411816,
+      "STATION:Giswil": 1229.1732062631597,
+      "AGGL2020:91407": 3139.512111782558,
+      "AGGL2020:93379": 3541.5136389836716,
+      "STATION:Wolhusen": 2575.0129256345094,
+      "AGGL2020:91331": 5157.164490529559,
+      "AGGL2020:93339": 4646.169928468382
+    },
+    "selectedDestinationTotalsByCluster": {
+      "AGGL2020:261": 231769.57053831898,
+      "AGGL2020:230": 48309.55477855273,
+      "AGGL2020:351": 97646.72084663632,
+      "AGGL2020:2581": 23049.730506837346,
+      "AGGL2020:1711": 29790.318425426936,
+      "AGGL2020:6621": 102034.95836821554,
+      "AGGL2020:4021": 45622.534543885835,
+      "AGGL2020:4001": 18738.01598923131,
+      "AGGL2020:5586": 90908.13946979678,
+      "AGGL2020:942": 17802.25528150045,
+      "AGGL2020:90768": 10380.556825599626,
+      "AGGL2020:94946": 8563.965715511127,
+      "AGGL2020:4566": 12069.768129303031,
+      "AGGL2020:3203": 30516.915519562812,
+      "AGGL2020:2701": 62091.198613797365,
+      "AGGL2020:4436": 10768.918324257442,
+      "AGGL2020:1061": 39290.220267170305,
+      "AGGL2020:91362": 6390.229148895731,
+      "AGGL2020:3293": 11387.647601538112,
+      "AGGL2020:3425": 10960.317696413586,
+      "AGGL2020:2939": 13549.000184844677,
+      "AGGL2020:4201": 11462.997309538187,
+      "AGGL2020:6002": 12331.299390478565,
+      "AGGL2020:5002": 6403.210367440951,
+      "AGGL2020:3336": 18165.778925843653,
+      "AGGL2020:371": 17133.22547566956,
+      "AGGL2020:2601": 14753.168488752795,
+      "AGGL2020:6458": 14694.38597720126,
+      "AGGL2020:95401": 8071.720509102351,
+      "AGGL2020:5890": 28145.626694895596,
+      "AGGL2020:5192": 16714.608699724187,
+      "STATION:Bätterkinden": 4260.8491405996665,
+      "AGGL2020:93955": 11599.032573218743,
+      "STATION:Andelfingen": 8754.79507578309,
+      "AGGL2020:2196": 21500.819893619333,
+      "AGGL2020:4401": 10345.685320371851,
+      "STATION:Romont FR": 8183.821245045449,
+      "STATION:Ziegelbrücke": 5169.964196012361,
+      "AGGL2020:581": 8083.766389581679,
+      "AGGL2020:5938": 11577.816501912526,
+      "AGGL2020:90329": 4535.516573118996,
+      "AGGL2020:404": 7760.553017203721,
+      "AGGL2020:3251": 8477.021720590454,
+      "AGGL2020:3271": 6024.133821569307,
+      "AGGL2020:6421": 7151.165578614333,
+      "AGGL2020:4671": 4996.894821103049,
+      "STATION:St-Maurice": 4990.692000376702,
+      "AGGL2020:6136": 5730.751035754605,
+      "STATION:Bex": 4591.351179169194,
+      "AGGL2020:6266": 10724.610735190905,
+      "AGGL2020:6248": 6190.320821024455,
+      "STATION:Faido": 1085.1401151653215,
+      "STATION:Airolo": 1031.3375089482681,
+      "STATION:Göschenen": 1270.8103738050766,
+      "AGGL2020:6711": 5792.874705822365,
+      "STATION:Moutier": 4063.272318936974,
+      "STATION:Biasca": 2433.461209636237,
+      "AGGL2020:90306": 8632.437503965195,
+      "AGGL2020:1201": 3880.551470105096,
+      "AGGL2020:3901": 15285.055083593079,
+      "AGGL2020:2546": 9896.613894999286,
+      "STATION:Bad Ragaz": 8182.324128007921,
+      "STATION:Brunnen": 3560.2943714368967,
+      "AGGL2020:90979": 3656.0089855967326,
+      "AGGL2020:94163": 5446.722449934034,
+      "STATION:Ins": 3791.5058902764677,
+      "STATION:Kerzers": 4035.1815456114387,
+      "AGGL2020:92407": 3490.3242646323943,
+      "AGGL2020:5250": 6991.986268965276,
+      "AGGL2020:2125": 5374.611910732834,
+      "AGGL2020:91103": 10267.377178319744,
+      "STATION:Hohtenn": 596.5188313820189,
+      "STATION:Goppenstein": 477.3581695540503,
+      "STATION:Kandersteg": 1527.0572241579348,
+      "STATION:Frutigen": 1978.5556840351321,
+      "STATION:Konstanz": 3372.761768411876,
+      "STATION:Brienz": 1589.228027491814,
+      "STATION:Leuk": 3157.206817535272,
+      "STATION:Meiringen": 1391.6490447386984,
+      "STATION:Brünig-Hasliberg": 892.7882068515725,
+      "STATION:St-Imier": 2461.653805245737,
+      "STATION:Lungern": 909.0613757184369,
+      "STATION:Courtelary": 2666.7538967970168,
+      "STATION:Langnau i.E.": 2918.3186156200463,
+      "STATION:Sonceboz-Sombeval": 3875.8764172727856,
+      "STATION:Giswil": 1238.5824553677169,
+      "AGGL2020:91407": 3156.6967925046515,
+      "AGGL2020:93379": 3568.7129037283607,
+      "STATION:Wolhusen": 2565.7759906408164,
+      "AGGL2020:91331": 5148.272281333162,
+      "AGGL2020:93339": 4617.538860554037
+    }
+  },
+  "clusterUsageCounter": {
+    "AGGL2020:261": 2420,
+    "AGGL2020:230": 260,
+    "AGGL2020:351": 1016,
+    "AGGL2020:2581": 516,
+    "AGGL2020:1711": 516,
+    "AGGL2020:6621": 516,
+    "AGGL2020:4021": 1016,
+    "AGGL2020:4001": 260,
+    "AGGL2020:5586": 768,
+    "AGGL2020:942": 260,
+    "AGGL2020:90768": 260,
+    "AGGL2020:94946": 260,
+    "AGGL2020:4566": 260,
+    "AGGL2020:3203": 768,
+    "AGGL2020:2701": 1260,
+    "AGGL2020:4436": 516,
+    "AGGL2020:1061": 260,
+    "AGGL2020:91362": 260,
+    "AGGL2020:3293": 260,
+    "AGGL2020:3425": 260,
+    "AGGL2020:2939": 516,
+    "AGGL2020:4201": 260,
+    "AGGL2020:6002": 1016,
+    "AGGL2020:5002": 260,
+    "AGGL2020:3336": 260,
+    "AGGL2020:371": 260,
+    "AGGL2020:2601": 768,
+    "AGGL2020:6458": 260,
+    "AGGL2020:95401": 260,
+    "AGGL2020:5890": 516,
+    "AGGL2020:5192": 260,
+    "STATION:Bätterkinden": 260,
+    "AGGL2020:93955": 260,
+    "STATION:Andelfingen": 260,
+    "AGGL2020:2196": 260,
+    "AGGL2020:4401": 260,
+    "STATION:Romont FR": 260,
+    "STATION:Ziegelbrücke": 260,
+    "AGGL2020:581": 516,
+    "AGGL2020:5938": 260,
+    "AGGL2020:90329": 260,
+    "AGGL2020:404": 260,
+    "AGGL2020:3251": 768,
+    "AGGL2020:3271": 260,
+    "AGGL2020:6421": 516,
+    "AGGL2020:4671": 260,
+    "STATION:St-Maurice": 260,
+    "AGGL2020:6136": 260,
+    "STATION:Bex": 260,
+    "AGGL2020:6266": 260,
+    "AGGL2020:6248": 260,
+    "STATION:Faido": 260,
+    "STATION:Airolo": 260,
+    "STATION:Göschenen": 260,
+    "AGGL2020:6711": 260,
+    "STATION:Moutier": 260,
+    "STATION:Biasca": 260,
+    "AGGL2020:90306": 260,
+    "AGGL2020:1201": 516,
+    "AGGL2020:3901": 260,
+    "AGGL2020:2546": 516,
+    "STATION:Bad Ragaz": 260,
+    "STATION:Brunnen": 260,
+    "AGGL2020:90979": 260,
+    "AGGL2020:94163": 260,
+    "STATION:Ins": 260,
+    "STATION:Kerzers": 260,
+    "AGGL2020:92407": 260,
+    "AGGL2020:5250": 260,
+    "AGGL2020:2125": 260,
+    "AGGL2020:91103": 260,
+    "STATION:Hohtenn": 260,
+    "STATION:Goppenstein": 260,
+    "STATION:Kandersteg": 260,
+    "STATION:Frutigen": 260,
+    "STATION:Konstanz": 260,
+    "STATION:Brienz": 260,
+    "STATION:Leuk": 260,
+    "STATION:Meiringen": 260,
+    "STATION:Brünig-Hasliberg": 260,
+    "STATION:St-Imier": 260,
+    "STATION:Lungern": 260,
+    "STATION:Courtelary": 260,
+    "STATION:Langnau i.E.": 260,
+    "STATION:Sonceboz-Sombeval": 260,
+    "STATION:Giswil": 260,
+    "AGGL2020:91407": 260,
+    "AGGL2020:93379": 260,
+    "STATION:Wolhusen": 260,
+    "AGGL2020:91331": 260,
+    "AGGL2020:93339": 260
+  },
+  "clusterScopeUsageCounter": {
+    "official_bfs_aggl2020": 25620,
+    "station_singleton_outside_agglomeration": 7800,
+    "foreign_station_singleton": 260
+  },
+  "activePairsTouchingForeignStation": 260,
+  "excludedPairsTouchingForeignStation": 0,
+  "activeForeignWeightSum": 5545.1738612524205,
+  "activeForeignWeightShare": 0.00581146854148861
+}

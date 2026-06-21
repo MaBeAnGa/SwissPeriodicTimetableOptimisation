@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-05-22 18:00:03 CEST",
+  "years": [
+    "2026",
+    "2035"
+  ],
+  "method": "Greedy exact-current-route path-level evaluation plus discounted near-miss proxy; final full reroute validation still recommended before thesis adoption.",
+  "seed_with_filtered": true,
+  "seed_rows": 18,
+  "candidate_rows_after_static_filters": 450,
+  "accepted_new_rows": 19,
+  "final_pruned_rows": 1,
+  "accepted_new_rows_by_year": {
+    "2026": 9,
+    "2035": 10
+  },
+  "near_miss_discount": 0.25,
+  "selected_hub_year_subgraphs": 170,
+  "scan_row_limit": 0,
+  "current_row_state_root": "<EXTERNAL_SCENARIO_STATE_ROOT>/nondominated_cells_state_OPTIMIZED_FILTERED",
+  "benchmark_row_state_root": "<EXTERNAL_SCENARIO_STATE_ROOT>/nondominated_cells_state_v0_restored_from_pathalloc_csv",
+  "scenario_passes_acceptance": true,
+  "scenario_acceptance_reasons": [],
+  "final_existing_route_exact_summary": {
+    "accepted_change_rows": 19,
+    "current_route_exact_pax_minutes_saved": 10349.608552,
+    "current_route_exact_weight_touched": 25125.094337,
+    "current_route_exact_touched_paths": 292888,
+    "current_route_exact_invalidated_daily_pax": 0.0,
+    "current_route_exact_invalidated_paths": 0,
+    "invalidated_by_physical_shift_id": {},
+    "current_route_exact_mean_total_delta_min": -0.411923172,
+    "current_route_exact_rolling_share_delta": 0.013017644,
+    "discounted_near_miss_pax_minutes_selected": 491.43118,
+    "better_score_selected_total": 10841.039732
+  },
+  "outputs": {
+    "selected_hubs": "<USER_HOME>/iCloud Drive (Archive)/Documents/Documents - Matthias’s 16\" MacBook Pro (246)/Paper Pythons/Master Thesis/2nd Half of Project (Comparison 2026 and 2035)/transfer_optimization_tables/ACTUALLY_BETTER_OPTIMIZED/BetterOptimization_SelectedHubs.csv",
+    "candidate_scores": "<USER_HOME>/iCloud Drive (Archive)/Documents/Documents - Matthias’s 16\" MacBook Pro (246)/Paper Pythons/Master Thesis/2nd Half of Project (Comparison 2026 and 2035)/transfer_optimization_tables/ACTUALLY_BETTER_OPTIMIZED/BetterOptimization_CandidateScores_2026_2035.csv",
+    "proposed_new_changes": "<USER_HOME>/iCloud Drive (Archive)/Documents/Documents - Matthias’s 16\" MacBook Pro (246)/Paper Pythons/Master Thesis/2nd Half of Project (Comparison 2026 and 2035)/transfer_optimization_tables/ACTUALLY_BETTER_OPTIMIZED/BetterOptimization_ProposedNewTimetableChanges_2026_2035.csv",
+    "scenario_changes_seed_plus_new": "<USER_HOME>/iCloud Drive (Archive)/Documents/Documents - Matthias’s 16\" MacBook Pro (246)/Paper Pythons/Master Thesis/2nd Half of Project (Comparison 2026 and 2035)/transfer_optimization_tables/ACTUALLY_BETTER_OPTIMIZED/BetterOptimization_AllScenarioChanges_SeedPlusNew_2026_2035.csv",
+    "preview_timetable": "<USER_HOME>/iCloud Drive (Archive)/Documents/Documents - Matthias’s 16\" MacBook Pro (246)/Paper Pythons/Master Thesis/2nd Half of Project (Comparison 2026 and 2035)/transfer_optimization_tables/ACTUALLY_BETTER_OPTIMIZED/FullTimetableHistory2026_2035_BETTER_OPTIMIZATION_preview.csv",
+    "log": "<USER_HOME>/iCloud Drive (Archive)/Documents/Documents - Matthias’s 16\" MacBook Pro (246)/Paper Pythons/Master Thesis/2nd Half of Project (Comparison 2026 and 2035)/transfer_optimization_tables/ACTUALLY_BETTER_OPTIMIZED/BetterOptimization_timetable_search.log"
+  }
+}

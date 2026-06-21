@@ -1,0 +1,6 @@
+scenario,files,bytes,decimal_gb,binary_gib,canonical_location
+Baseline,3173,286181932008,286.181932008,266.527694,SSD canonical JSON row state
+Optimized Step 1,3175,286470205506,286.470205506,266.796169,NAS read-only canonical JSON row state
+Optimized Step 2,3175,286393095918,286.393095918,266.724355,SSD canonical JSON row state
+Optimized Step 3,3175,287266858365,287.266858365,267.538110,SSD corrected canonical JSON row state
+Total,12698,1146312091797,1146.312091797,1067.586329,Sum without duplicate monolithic CSV exports

@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.pkl
+*.sqlite
+*.sqlite3
+.ipynb_checkpoints/
+external_scenario_states/
+full_od_state/
+nondominated_cells_state_*/
+*_Nondominated_paths_full*.csv
+dist/
+build/

@@ -1,0 +1,7 @@
+year,level,groups,improved_groups,worsened_groups,unchanged_groups,unchanged_threshold_sec
+2026,canton,26,22,1,3,0.12
+2026,municipality,853,370,122,361,0.12
+2026,station,1592,642,211,739,0.12
+2035,canton,26,19,3,4,0.12
+2035,municipality,847,441,111,295,0.12
+2035,station,1579,811,196,572,0.12

@@ -1,0 +1,12 @@
+Andrews García, M. B. (2026). Periodic Timetable Modelling & Matheuristic Event-Retiming Optimization of the Swiss Passenger Rail Network. Master's thesis, Institute for Transport Planning and Systems, ETH Zürich.
+
+BibTeX:
+
+@mastersthesis{andrewsGarcia2026Thesis,
+  author  = {Andrews Garc{\'i}a, Matthias Benjam{\'i}n},
+  title   = {Periodic Timetable Modelling \& Matheuristic Event-Retiming Optimization of the Swiss Passenger Rail Network},
+  school  = {ETH Z{\"u}rich},
+  address = {Z{\"u}rich, Switzerland},
+  year    = {2026},
+  type    = {Master's thesis}
+}

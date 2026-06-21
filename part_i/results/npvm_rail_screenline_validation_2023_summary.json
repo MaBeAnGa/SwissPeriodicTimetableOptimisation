@@ -1,0 +1,45 @@
+{
+  "reference_year": 2023,
+  "selection_coverage_threshold": 0.9500007959699638,
+  "selected_pairs": 4550,
+  "selected_weight": 2235030.704474254,
+  "assigned_pairs": 4550,
+  "assigned_weight": 2235030.7044742503,
+  "no_route_pairs": 0,
+  "no_route_weight": 0.0,
+  "model_station_diagnostics": {
+    "total_rows": 62211,
+    "total_weight": 2951903.093959502,
+    "assignable_rows": 37793,
+    "assignable_weight": 2352661.928237917,
+    "missing_station_rows": 24418,
+    "missing_station_weight": 599241.1657215852
+  },
+  "screenline_count": 15,
+  "anchor_corridors": [
+    "Olten-Bern",
+    "Arth-Goldau-Bellinzona"
+  ],
+  "anchor_scale_factor": 1.1961831732508514,
+  "raw_fit": {
+    "count": 15,
+    "pearson_r": 0.7841331251603162,
+    "r_squared": 0.6148647579736841,
+    "mape_percent": 32.22846954467282,
+    "median_ape_percent": 16.851969996340973,
+    "within_20_percent": 9,
+    "within_30_percent": 11,
+    "within_50_percent": 13
+  },
+  "anchor_scaled_fit_excluding_anchors": {
+    "count": 13,
+    "pearson_r": 0.7924854623906851,
+    "r_squared": 0.6280332081005779,
+    "mape_percent": 56.079647270408955,
+    "median_ape_percent": 38.99170739037847,
+    "within_20_percent": 4,
+    "within_30_percent": 5,
+    "within_50_percent": 9
+  },
+  "runtime_seconds": 6.228627920150757
+}

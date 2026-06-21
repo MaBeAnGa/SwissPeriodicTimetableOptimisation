@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-06-17 21:51:43 CEST",
+  "run_root": "<EXTERNAL_SCENARIO_STATE_ROOT>/step3_local_outputs/STEP3_BUILD_LOCAL_FINAL",
+  "surgery_root": "<EXTERNAL_SCENARIO_STATE_ROOT>/step3_local_outputs/STEP3_BUILD_LOCAL_FINAL/reversal_surgery_preparation/ic5_ic82_baseline_step3_only/cell_surgery_20260617_090934",
+  "v0_state_root": "<EXTERNAL_SCENARIO_STATE_ROOT>/nondominated_cells_state_v0_restored_from_pathalloc_csv",
+  "step3_state_root": "<EXTERNAL_SCENARIO_STATE_ROOT>/step3_local_outputs/STEP3_BUILD_LOCAL_FINAL/row_states/nondominated_cells_state_STEP3_FINAL",
+  "proposals": "<EXTERNAL_SCENARIO_STATE_ROOT>/step3_local_outputs/STEP3_BUILD_LOCAL_FINAL/analysis/step3_final_accepted_proposals_for_attribution_audit.csv",
+  "outputs": [
+    "<EXTERNAL_SCENARIO_STATE_ROOT>/step3_local_outputs/STEP3_BUILD_LOCAL_FINAL/reversal_surgery_preparation/ic5_ic82_baseline_step3_only/cell_surgery_20260617_090934/report_inputs_step3_corrected/edit_attribution_step3_corrected_v2/TimetableAdjustmentEffectAudit_by_change_v2.csv",
+    "<EXTERNAL_SCENARIO_STATE_ROOT>/step3_local_outputs/STEP3_BUILD_LOCAL_FINAL/reversal_surgery_preparation/ic5_ic82_baseline_step3_only/cell_surgery_20260617_090934/report_inputs_step3_corrected/step3_reversal_edit_attribution.csv",
+    "<EXTERNAL_SCENARIO_STATE_ROOT>/step3_local_outputs/STEP3_BUILD_LOCAL_FINAL/reversal_surgery_preparation/ic5_ic82_baseline_step3_only/cell_surgery_20260617_090934/report_inputs_step3_corrected/step3_spatial_delta_by_origin.csv",
+    "<EXTERNAL_SCENARIO_STATE_ROOT>/step3_local_outputs/STEP3_BUILD_LOCAL_FINAL/reversal_surgery_preparation/ic5_ic82_baseline_step3_only/cell_surgery_20260617_090934/report_inputs_step3_corrected/step3_spatial_extremes.csv",
+    "<EXTERNAL_SCENARIO_STATE_ROOT>/step3_local_outputs/STEP3_BUILD_LOCAL_FINAL/reversal_surgery_preparation/ic5_ic82_baseline_step3_only/cell_surgery_20260617_090934/report_inputs_step3_corrected/step3_spatial_delta_counts.csv",
+    "<EXTERNAL_SCENARIO_STATE_ROOT>/step3_local_outputs/STEP3_BUILD_LOCAL_FINAL/reversal_surgery_preparation/ic5_ic82_baseline_step3_only/cell_surgery_20260617_090934/report_inputs_step3_corrected/step3_segment_load_delta_top.csv",
+    "<EXTERNAL_SCENARIO_STATE_ROOT>/step3_local_outputs/STEP3_BUILD_LOCAL_FINAL/reversal_surgery_preparation/ic5_ic82_baseline_step3_only/cell_surgery_20260617_090934/report_inputs_step3_corrected/step3_od_extremes_2026.csv",
+    "<EXTERNAL_SCENARIO_STATE_ROOT>/step3_local_outputs/STEP3_BUILD_LOCAL_FINAL/reversal_surgery_preparation/ic5_ic82_baseline_step3_only/cell_surgery_20260617_090934/report_inputs_step3_corrected/step3_od_extremes_2035.csv",
+    "<EXTERNAL_SCENARIO_STATE_ROOT>/step3_local_outputs/STEP3_BUILD_LOCAL_FINAL/reversal_surgery_preparation/ic5_ic82_baseline_step3_only/cell_surgery_20260617_090934/report_inputs_step3_corrected/step3_od_rolling_share_extremes.csv",
+    "<EXTERNAL_SCENARIO_STATE_ROOT>/step3_local_outputs/STEP3_BUILD_LOCAL_FINAL/reversal_surgery_preparation/ic5_ic82_baseline_step3_only/cell_surgery_20260617_090934/report_inputs_step3_corrected/step3_od_path_window_2035.csv"
+  ]
+}

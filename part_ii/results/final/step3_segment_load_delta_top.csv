@@ -1,0 +1,81 @@
+year,ranking,rank,first_station,second_station,line,baseline_daily_pax,step3_daily_pax,delta_daily_pax
+2026,largest_load_increases,1,Zürich Hardbrücke,Zürich Oerlikon,P / S 9,5628.854536,8516.972934,2888.1183979999996
+2026,largest_load_increases,2,Zürich HB,Zürich Hardbrücke,P / S 9,6293.027997,8710.886145,2417.8581480000003
+2026,largest_load_increases,3,Giubiasco,Bellinzona,S 10,2796.404054,4182.202871,1385.7988170000003
+2026,largest_load_increases,4,Lugano,Giubiasco,S 10,3056.588703,4142.148636,1085.559933
+2026,largest_load_increases,5,Genève,Vernier,L 5,2701.16394,3379.74311,678.57917
+2026,largest_load_increases,6,Zürich HB,Zürich Stadelhofen,E / S 5,19200.611881,19874.436756,673.8248749999984
+2026,largest_load_increases,7,Zürich HB,Zürich Flughafen,IR 75,2262.479846,2934.453453,671.9736069999999
+2026,largest_load_increases,8,Lancy-Pont-Rouge,Genève,L 4,5408.327299,6042.361114,634.0338150000007
+2026,largest_load_increases,9,Winterthur,Winterthur Grüze,I / S 11,337.295312,962.8902,625.5948880000001
+2026,largest_load_increases,10,Winterthur Grüze,Winterthur,I / S 11,556.948504,1181.178565,624.230061
+2026,largest_load_increases,11,Vernier,Meyrin,L 5,2411.174871,2970.1905,559.015629
+2026,largest_load_increases,12,Zürich Stadelhofen,Zürich HB,F / S 16,3235.094039,3749.122753,514.028714
+2026,largest_load_increases,13,Meyrin,Zimeysa,L 5,2189.879506,2670.706376,480.8268699999999
+2026,largest_load_increases,14,Zürich HB,Zürich Hardbrücke,K / S 6,8635.894627,9097.340386,461.4457590000002
+2026,largest_load_increases,15,Genève,Lancy-Pont-Rouge,L 4,5601.492868,5985.368121,383.87525300000016
+2026,largest_load_increases,16,Brugg AG,Baden,IR 36,7485.114892,7855.721792,370.6069000000007
+2026,largest_load_increases,17,Bern Europaplatz,Bern,S 3,3063.633096,3433.536658,369.90356199999997
+2026,largest_load_increases,18,Aarau,Lenzburg,IR 37,4712.619059,5066.90673,354.28767100000005
+2026,largest_load_increases,19,Lancy-Bachet,Lancy-Pont-Rouge,L 4,4936.765182,5274.883964,338.11878199999956
+2026,largest_load_increases,20,Lenzburg,Othmarsingen,S 23,782.000933,1117.797279,335.79634599999986
+2026,largest_load_decreases,1,Zürich HB,Zürich Oerlikon,IC 1,5732.089976,2886.282917,-2845.807059
+2026,largest_load_decreases,2,Giubiasco,Bellinzona,S 20,4067.646845,2661.496897,-1406.1499480000002
+2026,largest_load_decreases,3,Mezzovico,Rivera-Bironico,S 90,1991.688765,909.467675,-1082.22109
+2026,largest_load_decreases,4,Rivera-Bironico,Giubiasco,S 90,1874.434647,792.213558,-1082.2210890000001
+2026,largest_load_decreases,5,Taverne-Torricella,Mezzovico,S 90,2066.193995,983.972906,-1082.2210890000001
+2026,largest_load_decreases,6,Lamone-Cadempino,Taverne-Torricella,S 90,2245.740751,1163.519662,-1082.221089
+2026,largest_load_decreases,7,Lugano,Lamone-Cadempino,S 90,2618.93365,1654.238769,-964.6948809999999
+2026,largest_load_decreases,8,Schinznach Bad,Brugg AG,S 29,2756.71957,2399.649136,-357.0704340000002
+2026,largest_load_decreases,9,Wildegg,Holderbank AG,S 29,2784.908519,2427.838405,-357.0701140000001
+2026,largest_load_decreases,10,Holderbank AG,Schinznach Bad,S 29,2748.492181,2391.424529,-357.0676520000002
+2026,largest_load_decreases,11,Zürich Oerlikon,Zürich Flughafen,IC 1,4961.935047,4605.487343,-356.44770400000016
+2026,largest_load_decreases,12,Rupperswil,Wildegg,S 29,3089.633508,2789.236288,-300.39721999999983
+2026,largest_load_decreases,13,Brugg AG,Turgi,RE 12,817.643523,534.793402,-282.85012099999994
+2026,largest_load_decreases,14,Turgi,Baden,RE 12,482.997137,200.299368,-282.697769
+2026,largest_load_decreases,15,Bellinzona,Giubiasco,S 20,2789.312695,2524.31662,-264.996075
+2026,largest_load_decreases,16,Aarau,Rupperswil,S 29,2819.510662,2560.91652,-258.5941419999999
+2026,largest_load_decreases,17,Giubiasco,S. Antonino,S 20,3107.851885,2874.438057,-233.4138280000002
+2026,largest_load_decreases,18,S. Antonino,Lugano,RE 80,2935.384546,2702.236964,-233.1475819999996
+2026,largest_load_decreases,19,Genève,Lancy-Pont-Rouge,L 1,1193.97544,1011.205901,-182.7695389999999
+2026,largest_load_decreases,20,Zürich Hardbrücke,Zürich HB,J / S 12,9114.299162,8941.687622,-172.61153999999988
+2035,largest_load_increases,1,Thun,Bern,IC 61,4395.444203,6088.822386,1693.3781829999998
+2035,largest_load_increases,2,Olten,Dulliken,S 26,2403.613642,3557.710648,1154.0970060000004
+2035,largest_load_increases,3,Schönenwerd SO,Aarau,S 26,3322.435727,4476.281743,1153.8460159999995
+2035,largest_load_increases,4,Däniken SO,Schönenwerd SO,S 26,2654.284478,3808.120605,1153.836127
+2035,largest_load_increases,5,Dulliken,Däniken SO,S 26,2400.006089,3553.791139,1153.78505
+2035,largest_load_increases,6,Winterthur,Effretikon,D / S 24,2658.929414,3395.670819,736.7414049999998
+2035,largest_load_increases,7,Spiez,Thun,IC 61,4384.807442,5028.897663,644.0902209999995
+2035,largest_load_increases,8,Bern,Thun,IC 61,4252.79023,4797.875971,545.0857410000008
+2035,largest_load_increases,9,Nyon,Morges,IC 9,3728.536395,4271.835437,543.2990419999996
+2035,largest_load_increases,10,Effretikon,Dietlikon,D / S 24,3548.275644,4003.786592,455.5109480000001
+2035,largest_load_increases,11,Zürich Oerlikon,Zürich HB,IR 55,5475.428011,5913.869746,438.44173500000034
+2035,largest_load_increases,12,Biel/Bienne,Neuchâtel,IC 51,1968.142164,2363.759613,395.6174490000001
+2035,largest_load_increases,13,Zürich Flughafen,Zürich Oerlikon,IR 55,5681.773602,6070.397757,388.6241549999995
+2035,largest_load_increases,14,St. Gallen Güterbahnhof,St. Gallen,S 21,3305.63076,3676.069393,370.4386330000002
+2035,largest_load_increases,15,St. Gallen Riethüsli,St. Gallen Güterbahnhof,S 21,3129.553307,3498.748396,369.1950889999998
+2035,largest_load_increases,16,Lustmühle,St. Gallen Riethüsli,S 21,2654.286032,3021.004834,366.71880199999987
+2035,largest_load_increases,17,Niederteufen,Lustmühle,S 21,2557.300178,2923.590371,366.2901929999998
+2035,largest_load_increases,18,Sternen bei Teufen,Niederteufen,S 21,2433.485278,2799.238582,365.75330399999984
+2035,largest_load_increases,19,Teufen AR Stofel,Sternen bei Teufen,S 21,2352.581034,2718.005381,365.4243470000001
+2035,largest_load_increases,20,Teufen AR,Teufen AR Stofel,S 21,2212.153878,2577.051959,364.8980809999998
+2035,largest_load_decreases,1,Thun,Bern,IC 82,3119.411783,1228.026932,-1891.384851
+2035,largest_load_decreases,2,Olten,Aarau,S 29,8955.07437,8022.083518,-932.9908519999999
+2035,largest_load_decreases,3,Spiez,Thun,IC 82,2797.602784,2168.226302,-629.3764820000001
+2035,largest_load_decreases,4,Zürich Flughafen,Zürich Oerlikon,IR 35,4779.679019,4330.484177,-449.1948419999999
+2035,largest_load_decreases,5,Zürich Oerlikon,Zürich Wipkingen,IR 35,2572.323654,2198.904157,-373.41949699999986
+2035,largest_load_decreases,6,Zürich Wipkingen,Zürich HB,IR 35,2737.962024,2364.809087,-373.15293699999984
+2035,largest_load_decreases,7,Sargans,Flums,IR 35,3397.947635,3052.827562,-345.12007300000005
+2035,largest_load_decreases,8,Flums,Walenstadt,IR 35,3386.665491,3050.771,-335.894491
+2035,largest_load_decreases,9,Nyon,Morges,IC 51,620.348754,285.125548,-335.223206
+2035,largest_load_decreases,10,Walenstadt,Unterterzen,IR 35,3505.13287,3183.947082,-321.1857879999998
+2035,largest_load_decreases,11,Ziegelbrücke,Siebnen-Wangen,IR 35,4461.33559,4141.166549,-320.1690410000001
+2035,largest_load_decreases,12,Siebnen-Wangen,Lachen SZ,IR 35,4685.340553,4365.186647,-320.15390599999955
+2035,largest_load_decreases,13,Lachen SZ,Pfäffikon SZ,IR 35,5086.181862,4766.043321,-320.13854100000026
+2035,largest_load_decreases,14,Wädenswil,Horgen,IR 35,8244.261946,7928.421053,-315.8408930000005
+2035,largest_load_decreases,15,Thalwil,Zürich Enge,IR 35,8736.587869,8421.178765,-315.4091040000003
+2035,largest_load_decreases,16,Horgen,Thalwil,IR 35,8857.740722,8542.509445,-315.2312770000008
+2035,largest_load_decreases,17,Pfäffikon SZ,Wädenswil,IR 35,5724.136744,5409.138635,-314.9981090000001
+2035,largest_load_decreases,18,Bern,Thun,IC 82,2063.001407,1753.646024,-309.3553830000003
+2035,largest_load_decreases,19,Zürich Enge,Zürich HB,IR 35,8362.758866,8054.153442,-308.6054240000003
+2035,largest_load_decreases,20,Zürich HB,Zürich Wipkingen,IR 35,1082.606225,800.024623,-282.581602

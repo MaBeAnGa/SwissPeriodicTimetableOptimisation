@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the thesis."
+title: "Periodic Timetable Modelling & Matheuristic Event-Retiming Optimization of the Swiss Passenger Rail Network"
+type: thesis
+authors:
+  - family-names: "Andrews García"
+    given-names: "Matthias Benjamín"
+year: 2026
+institution:
+  name: "ETH Zürich"
+department: "Institute for Transport Planning and Systems"
+repository-code: "https://github.com/MaBeAnGa/SwissPeriodicTimetableOptimisation"
+license: "MIT AND CC-BY-4.0"
+preferred-citation:
+  type: thesis
+  title: "Periodic Timetable Modelling & Matheuristic Event-Retiming Optimization of the Swiss Passenger Rail Network"
+  authors:
+    - family-names: "Andrews García"
+      given-names: "Matthias Benjamín"
+  year: 2026
+  institution:
+    name: "ETH Zürich"
