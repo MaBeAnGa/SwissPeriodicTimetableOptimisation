@@ -8,7 +8,7 @@ The project has two connected parts. Part I reconstructs historical Swiss passen
 
 ## Repository Structure
 
-- `thesis/`: final LaTeX source, bibliography, compiled thesis, and figures used by the thesis.
+- `thesis/`: final LaTeX source, bibliography, the latest successful compiled thesis PDF, and figures used by the thesis. See `docs/final_thesis_completion_report.md` for the current build status.
 - `part_i/data/`: compact historical timetable, station, OD-weight, and generalized-cost inputs.
 - `part_i/code/`: historical timetable reconstruction, routing, demand weighting, validation, and analysis scripts.
 - `part_i/results/`: final compact validation and aggregate result files.

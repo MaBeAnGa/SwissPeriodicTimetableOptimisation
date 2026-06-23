@@ -51,13 +51,10 @@ The deduplicated total is 1.146 TB (1.043 TiB).
 
 ## Build Verification
 
-- Tectonic completed the full natbib/BibTeX build.
-- The final PDF has 99 physical pages.
-- No citation key is missing from `sample.bib`.
-- No undefined citation, undefined reference, duplicate source label, or duplicate Hyperref page anchor remains.
-- All List of Figures and List of Tables entries fit on one line.
-- Visual inspection covered the title page and abstract, Methods II equations, scenario-comparison equations, authoritative Results II figures, Discussion II, conclusion, `A1` notation transition, bibliography, and `A10` data-availability page.
-- Remaining warnings are limited to upstream UTF-8 notices in `algorithm.sty`/`lineno.sty`, PDF 1.7 inclusion notices, and one negligible front-matter overfull notice with no visible clipping.
+- The included PDF is the latest successful Tectonic build from before the final literature-review, Discussion II, and conclusion pass on 21 June 2026. It should be rebuilt from the current `full_thesis.tex` before publication.
+- That prior build completed the full natbib/BibTeX workflow and was visually inspected across the title page, abstract, Methods II equations, authoritative Results II figures, Discussion II, conclusion, notation transition, bibliography, and data-availability page.
+- Static checks on the current source find all 48 cited keys in `sample.bib`, all 21 figure paths present, balanced braces, no active revision markup or placeholders, and no active duplicate labels.
+- A fresh rendered-PDF verification could not be completed during the final prose pass because the local execution approval quota blocked the Tectonic command.
 
 ## Reproducibility Boundaries
 
