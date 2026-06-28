@@ -20,7 +20,7 @@ All active `\rev{}` instructions, revision macros, duplicate draft sections, dup
 
 ## Authoritative Figures
 
-- The 21 figures referenced by the final TeX source were synchronized from the final Overleaf export `Master_Thesis-3/`.
+- The figures referenced by the final TeX source were synchronized from the final Overleaf export `Master_Thesis-10/`.
 - SHA-256 equality was confirmed between the Overleaf export, workspace, and repository-package copy for all 21 referenced figures.
 - Older generated PDFs were not used as visual evidence where they differed from the export.
 

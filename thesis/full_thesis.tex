@@ -112,7 +112,7 @@
     width=\textwidth,
     height=12.55cm,
     keepaspectratio
-]{figures/cover/part2_od_extreme_paths_step3_2035EASYNOTEXTCROPPED.pdf}
+]{figures/cover/part2_od_extreme_paths_step3_2035EASYTITLE.pdf}
 \end{center}
 
 \vspace{0.35cm}
@@ -1792,8 +1792,8 @@ Part II moves from the smaller historical reconstruction in Part I to a far more
     },
     validationbox/.style={
         box,
-        fill=gray!10,
-        draw=gray!65!black
+        fill=gray!30,
+        draw=gray!95!black
     },
     lane/.style={
         rounded corners=7pt,
@@ -1817,7 +1817,7 @@ Part II moves from the smaller historical reconstruction in Part I to a far more
         ->,
         >=Latex,
         line width=1.15pt,
-        draw=black!55,
+        draw=black!85,
         dashed,
         rounded corners=4pt,
         shorten >=2pt,
@@ -1922,7 +1922,7 @@ Part II moves from the smaller historical reconstruction in Part I to a far more
 \node[lanetitle, text=green!45!black] at (\xO,\laneTop+0.35)
 {Optimization layer};
 
-\node[lanetitle, text=black!62] at (\xA,\laneTop+0.35)
+\node[lanetitle, text=black!82] at (\xA,\laneTop+0.35)
 {Validation and analysis layer};
 
 % ---------------------------------------------------------------------
@@ -2047,9 +2047,9 @@ Part II moves from the smaller historical reconstruction in Part I to a far more
 \siderightup{green!55!black}{o11}{o10}
 \sideright{green!55!black}{o11}{o12}
 
-\sideright{black!58}{a13}{a14}
-\sideright{black!58}{a14}{a15}
-\sideright{black!58}{a15}{a16}
+\sideright{black!78}{a13}{a14}
+\sideright{black!78}{a14}{a15}
+\sideright{black!78}{a15}{a16}
 
 % ---------------------------------------------------------------------
 % Cross-layer workflow arrows
@@ -3839,25 +3839,14 @@ Several rows in Tables~\ref{tab:part2-accepted-edits-2026} and~\ref{tab:part2-ac
 The two Step~3 reversal rows in 2035's Table~\ref{tab:part2-accepted-edits-2035} identify the only earlier edits whose local candidate scores were favourable but whose later full-network attribution was negative. Step~1's IC~82 shift satisfied Equation~\eqref{eq:part2-step1-greedy}: its station-board proxy estimated a net saving of \(1'714.83\) passenger-minutes per day, including \(1'832.98\) passenger-minutes of local gain and \(118.15\) passenger-minutes of local loss, while the broken-transfer flow was \(B_z=0\). It therefore passed the positive-proxy and protected-transfer constraints, but the subsequent attribution assigned the edit a saving of \(-662\) passenger-minutes per day. It improved 349 more OD pairs than it worsened, but these pairs were associated with less passenger flow. Similarly, Step~2 IC~5 shift passed the preliminary constraints in Equation~\eqref{eq:part2-step2-static-filter}: its station-board estimates gave \(P^{\mathrm{gain}}_z=923.89\), \(P^{\mathrm{loss}}_z=198.16\), and \(P^{\mathrm{net}}_z=725.73\) passenger-minutes per day, so its loss--gain ratio was \(0.21\), below the \(0.75\) limit. It also produced \(E_z=613.62\) passenger-minutes per day on the fixed Step~1 reference paths, had no invalidated reference-path flow, and a Step~2 score of \(S_z=665.37\), thereby satisfying Equation~\eqref{eq:part2-step2-acceptance-rule}. After the later full OD rebuild, however, its attributed saving was \(-1'660\) passenger-minutes per day, worsening 2'513 more OD pairs than were improved. In both reversal cases, the filtration used gain and loss proxies derived from the surrounding timetable, which provided an effective screening approximation for the other retained edits but did not capture all path-rebuilding and dominance-share responses for these two sections. The Step~3 attribution review exposed these exceptions and restored the affected line segments to their baseline times.
 
 \newpage
-The accepted edits act through three realized transfer mechanisms, from the perspective of each affected OD pair. Improved existing transfers were already above the minimum transfer time, and are turned into a shorter yet still feasible transfer post-optimization. Newly unlocked transfers were below the minimum transfer time before retiming and become feasible after the edit. Newly worsened transfers were feasible in an earlier stage, but newly made infeasible due to the minimum transfer time no longer being met. Worsened existing transfers were feasible in an earlier stage, but have been lengthened as a result of an accepted timetable edit. Figure~\ref{fig:part2-transfer-mechanisms} shows the transfer mechanism split across all affected OD pairs and stages, separating improved existing transfers, newly unlocked transfers, worsened existing transfers, and newly worsened transfers. Comparative values across the three steps are shown with their associated passenger-minutes per day on the left, and with their count of affected OD pairs on the right.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=\textwidth]{figures/part-II/part2_optimization_impact_on_transfers.pdf}
-\caption[Transfer mechanism split by optimization step]{Transfer mechanism split for cumulatively accepted timetable edits across Steps~1--3, compared to the baseline. All affected OD pairs are considered, with their associated transfers separated into improved/worsened existing transfers and newly unlocked/worsened transfers. }
-
-\label{fig:part2-transfer-mechanisms}
-\end{figure}
-
-The three optimization scenarios differ in their transfer-mechanism composition. Step~1 is more near-miss oriented and therefore identifies many newly unlocked transfers, especially in 2026. The accepted edits in Steps~2 and~3 are dominated by shorter already-feasible transfers because the reference-path evaluation rewards transfer-time reductions on routes already used by passengers. This helps explain why several OD pairs can be negatively affected while their combined passenger-minute loss remains comparatively small.
-
-Table~\ref{tab:part2-step3-attribution-summary} reports Step~3's row-level OD associations, affected passenger weights, and attributed passenger-minute change. One OD pair can be associated with several edits.
+The three optimization scenarios differ in their transfer-mechanism composition. Step~1 is more near-miss oriented and therefore identifies many newly unlocked transfers, especially in 2026. The accepted edits in Steps~2 and~3 are dominated by shorter already-feasible transfers because the reference-path evaluation rewards transfer-time reductions on routes already used by passengers. This helps explain why several OD pairs can be negatively affected while their combined passenger-minute loss remains comparatively small. Table~\ref{tab:part2-step3-attribution-summary} reports Step~3's row-level OD associations, affected passenger weights, and attributed passenger-minute change. One OD pair can be associated with several edits.
 
 \begin{table}[htbp]
 \centering
 \small
 \setlength{\tabcolsep}{3.2pt}
-\caption[Step~3 row-level attribution summary]{Step~3 row-level attribution summary. Affected OD counts and demand are summed across edit rows. Positive attributed savings indicate lower in-system passenger-minutes.}
+\caption[Step~3 row-level attribution summary]{Step~3 row-level attribution summary. Positive attributed savings indicate lower pax-min.}
 \label{tab:part2-step3-attribution-summary}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{c l r r r r r r r r}
@@ -3872,6 +3861,17 @@ Table~\ref{tab:part2-step3-attribution-summary} reports Step~3's row-level OD as
 \end{tabular}%
 }
 \end{table}
+
+Figure~\ref{fig:part2-step3-od-path-categories} reframes the Step~3 outcome at the OD-pair level. Each point represents one OD pair with at least 1 passenger per day, and the vertical axis shows the dominance-weighted total post-departure travel-time change relative to the baseline. Negative values indicate faster Step~3 journeys, while positive values indicate slower journeys. 
+OD pairs are separated into seven outcome categories. Existing transfers (improved or worsened) keep the same line sequence from origin to destination, but become faster or slower, respectively. Newly unlocked transfers and newly missed transfers mean that the relevant OD pair alters its dominant line sequence. OD pairs with additional non-dominated paths and fewer paths are shown separately to isolate the pairs with altered headways. A large majority of OD pairs are temporally unaffected by the line edits. The lower summary rows report the 5th percentile, median, 95th percentile, and mean travel-time change. The figure shows that the optimized timetable affects only a small subset of passenger-relevant OD pairs, but that the affected pairs are not symmetric in magnitude. In 2026 and 2035, improved existing OD pairs are more numerous than worsened existing pairs and have a lower mean change. Newly missed OD pairs remain comparatively few in both years and have smaller average deteriorations. The path-count categories further show the benefit of a full OD rerouting: timetable edits can lead to a gain or loss of available retained nondominated alternative paths between OD pairs, due to the effects of newly unlocked and missed transfers.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{figures/part-II/part2_step3_od_path_change_category_panels_split_paths_scaled.pdf}
+\caption[OD-level Step~3 travel-time changes by path category]{OD-level total travel-time changes after Optimized Step~3 relative to baseline for OD pairs with at least 1 passenger per day. Values are dominance-weighted post-departure total-time changes in minutes per trip. Negative values indicate faster Step~3 journeys and positive values indicate slower journeys. Categories distinguish same dominant line-sequence changes, changed dominant line-sequence changes, changes in the number of retained nondominated paths, and unaffected OD pairs.}
+\label{fig:part2-step3-od-path-categories}
+\end{figure}
+
 
 
 
@@ -4027,14 +4027,11 @@ The rankings distinguish large passenger-facing time changes from changes that m
 \begin{figure}[htb]
 \centering
 \includegraphics[width=\textwidth]{figures/part-II/part2_od_extreme_paths_step3_2035.pdf}
-\caption[Multi-scenario spacetime graphs for extreme OD pairs]{Spacetime diagrams for two 2035 OD pairs, showing overlapping baseline and optimized paths. Colour-coded dots pair each arrival with its departures and allow direct comparison between scenarios.}
+\caption[Multi-scenario spacetime graphs for extreme OD pairs]{Spacetime diagrams for two 2035 OD pairs, showing overlapping baseline and optimized paths. Colour-coded dots pair each arrival with its departures and allow direct comparison between scenarios. See Appendix for simplified versions of this graph.}
 
 \label{fig:part2-od_spacetime_graph}
 \end{figure}
-Figure~\ref{fig:part2-od_spacetime_graph} shows these last two described 2035 improvements in a 05:00--07:00 origin-departure window. Olten--Distelberg improves because the Aarau transfer wait is adjusted from 3 to 4 minutes, fulfilling the minimum transfer time of a more efficient line pair. Blankenburg--Le Noirmont improves because the baseline route through Bern and Neuchâtel is replaced by a time-saving geographical diversion to Biel/Bienne, made possible by an IC~5 retiming that satisfies the minimum transfer time at Biel/Bienne. The figure therefore illustrates two distinct improvement types: a high-demand local transfer gain that postpones the origin departure time, and a very low-demand cross-country OD pair that moves up the arrival time by a full hour.
-
-
-These examples clarify why the optimization is evaluated through the full-network passenger-minute objective. The same accepted retiming can shorten a high-value transfer for one set of OD pairs, leave many pairs unchanged, and worsen another small subset. The OD-pair extremes reveal a range of different types of improvement otherwise concealed by the aggregate result.
+Figure~\ref{fig:part2-od_spacetime_graph} shows these last two described 2035 improvements in a 05:00--07:00 origin-departure window. Olten--Distelberg improves because the Aarau transfer wait is adjusted from 3 to 4 minutes, fulfilling the minimum transfer time of a more efficient line pair. Blankenburg--Le Noirmont improves because the baseline route through Bern and Neuchâtel is replaced by a time-saving geographical diversion to Biel/Bienne, made possible by an IC~5 retiming that satisfies the minimum transfer time at Biel/Bienne. The figure therefore illustrates two improvement types: high-demand local transfer gains, and very low-demand cross-country pairs that move up the arrival time by a full hour. These examples clarify why the optimization is evaluated through the full-network passenger-minute objective. The same accepted retiming can shorten a high-value transfer for one set of OD pairs, leave many pairs unchanged, and worsen a small subset. The OD-pair extremes reveal a range of different improvement types concealed by the aggregate result.
 
 
 \subsection{Spatial pattern by origin}\label{sec:results-part2-spatial}
@@ -4203,7 +4200,7 @@ Part~II evolves the diagnostic framework of Part~I into an intervention framewor
 
 Part~II's higher resolution improves the causal clarity of the analysis. The station universe expands from 131 stations in Part~I to nearly 1'600 stations, including essentially all major and minor Swiss stations and non-rush-hour periodic services. Every scenario within a model year uses the same OD matrix, so measured differences arise from timetable timing, path retention, and dominance-share reallocation rather than from changes in demand composition. Retiming candidates are also evaluated beyond the sections where they are applied: each completed timetable is rebuilt across the full OD system, allowing a local transfer adjustment to affect every downstream journey that uses it.
 
-The final Step~3 timetable reduces the full-network objective by 94'216 passenger-minutes per day in 2026 and 112'419 in 2035, equivalent to 2.78 and 3.12 seconds per weighted trip. These national means are small relative to the historical gains in Part~I, as expected for minute-scale refinements of an already coordinated timetable. They nevertheless represent substantial savings for specific OD pairs. Only 3.76\% of positive-demand OD pairs change at all in 2026 and 3.38\% in 2035, but this changed set includes repeated high-flow connections and origins with improvements measured in tens of seconds or several minutes per trip. Deteriorations are fewer and generally smaller than the improvements.
+The final Step~3 timetable reduces the full-network objective by 94'216 passenger-minutes per day in 2026 and 112'419 in 2035, equivalent to 2.78 and 3.12 seconds across all trips — or 73.9 and 83.0 seconds if only considering actually affected pairs. These national means are small relative to the historical gains in Part~I, as expected for minute-scale refinements of an already coordinated timetable. They nevertheless represent substantial savings for specific OD pairs. Only 3.76\% of positive-demand OD pairs change at all in 2026 and 3.38\% in 2035, but this changed set includes repeated high-flow connections and origins with improvements measured in tens of seconds or several minutes per trip. Deteriorations are fewer and generally smaller than the improvements.
 
 
 \subsection{Contribution of the three optimization steps}\label{sec:discussion-part2-steps}
@@ -4242,7 +4239,7 @@ The accepted edits remain passenger-weighted timetable hypotheses. Rolling-stock
 
 Demand is also modelled rather than directly observed for every OD pair, because SBB publishes station-throughput data rather than full OD-level demand matrices. The gravity seed, station-throughput constraints, transfer correction, and 2035 accessibility adjustment provide a well-performing weighting layer, but alternative demand matrices might influence the ranking of timetable edit candidates. Holding demand fixed across scenarios within each year is nevertheless appropriate for the comparison undertaken here because it isolates the effect of retiming and rerouting. Despite this, expanding the data used in this thesis to better model the effects of induced demand both within each year, and for improved future projections, would improve the accuracy and precision of the reported passenger-minute values, strengthening the validity of the overall model.
 
-These limitations define the next planning stage. The 42 active 2026 edits and 37 active 2035 edits form a compact set of candidates for capacity, robustness, resource-planning, and expert timetable review. Each edit has already passed a demanding passenger-weighted test: structural validation, sequential compatibility checks, and complete OD rerouting. The result is therefore both a network-level finding and an operationally interpretable shortlist for further investigation by the relevant railway operators, namely SBB, BLS, MGB, TILO and Zentralbahn.
+These limitations define the next planning stage. The 42 active 2026 edits and 37 active 2035 edits form a compact set of candidates for capacity, robustness, resource-planning, and expert timetable review. Each edit has already passed a demanding passenger-weighted test: structural validation, sequential compatibility checks, and complete OD rerouting. The result is therefore both a network-level finding and an operationally interpretable shortlist for further investigation by the relevant railway operators, namely SBB, BLS, MGB, TILO and Zentralbahn. In addition to these potential operational checks, future studies would do well to implement an expanded probabilistic transfer model, replacing minimum-transfer cutoffs with connection success probabilities. Benders or related decompositions could provide bounds on reduced or reformulated problems, with the aim to create narrowed-in subproblems through informative cuts, so that only affected OD paths are considered in each subproblem. This would permit the rerouting to be run more often during a candidate search. In the most advanced version, the inclusion of enough additional constraints within an overhauled model may lead to the resulting optimization confirming a global minimum, albeit most likely at the cost of requiring a smaller set of stations.
 
 \clearpage
 \section{Conclusion}\label{sec:conclusion}
@@ -4251,7 +4248,7 @@ This thesis establishes a unified passenger-weighted framework for measuring and
 
 The first research question is answered by the historical reconstruction. Timetable-realized journey conditions can be compared consistently across decades when the timetable, route-choice, and demand-weighting layers are represented explicitly. For the selected 131-station network, passenger-weighted post-departure time falls from 51.60 minutes per trip in 1982 to 39.13 minutes in 2026, while initial waiting falls from 28.51 to 13.53 minutes. Rolling, dwell, transfer, and waiting components all improve over the full period, but the spatial and calendar-window results show that progress is neither monotonic nor uniform. Major infrastructure and timetable recasts create broad gains while also redistributing accessibility, and passenger-weighted conclusions can differ materially from unweighted network averages.
 
-The second research question is answered positively. The final corrected Step~3 timetable reduces full-network post-departure travel by 94'216 passenger-minutes per day in 2026 and 112'419 in 2035, equivalent to 2.78 and 3.12 seconds per weighted trip. The gains are produced by 42 edited line timings in 2026 and 37 in 2035, all based on integer-minute section shifts that preserve local rolling times. Transfer and same-train dwell reductions dominate the result, while full rerouting reallocates passengers among retained paths and can increase aggregate rolling time or initial waiting. Only 3.76\% of non-zero-demand OD pairs change in 2026 and 3.38\% in 2035, so the national improvement is generated by a selective set of high-value or geographically extensive effects rather than a uniform shift of all journeys.
+The second research question is answered positively. The final corrected Step~3 timetable reduces full-network post-departure travel by 94'216 passenger-minutes per day in 2026 and 112'419 in 2035, equivalent to 73.9 and 83.0 seconds per affected trip. The gains are produced by 42 edited line timings in 2026 and 37 in 2035, all based on integer-minute section shifts that preserve local rolling times. Transfer and same-train dwell reductions dominate the result, while full rerouting reallocates passengers among retained paths and can increase aggregate rolling time or initial waiting. Only 3.76\% of non-zero-demand OD pairs change in 2026 and 3.38\% in 2035, so the national improvement is generated by a selective set of high-value or geographically extensive effects rather than a uniform shift of all journeys.
 
 Methodologically, the thesis connects two perspectives that are often applied separately: retrospective measurement of timetable-realized accessibility and prospective passenger-oriented periodic timetable improvement. The same path and component representation is used to explain historical timetable development, locate component-specific inefficiencies, and evaluate targeted retimings. Part~II extends the reviewed literature by applying the sizeable scope of all Swiss stations and line services to full OD rerouting, dominance-based passenger allocation, procedurally identified local timetable edits, and extensive post-optimization scenario analyses. The model-based matheuristic is central to this contribution, as it combines a mathematically defined global passenger-time target and formal feasibility structures with the heuristic candidate generation and sequential selection required to make the national problem computationally and interpretively manageable.
 
@@ -4270,7 +4267,7 @@ The resulting proposed timetable is not a fully-vetted operational implementatio
 \label{sec:acronyms-notation}
 \addcontentsline{toc}{section}{Acronyms and Notation}
 
-This section defines recurring acronyms and mathematical notation. Symbols are grouped first by the structures shared across the thesis and then by the Part~I and Part~II modelling layers. Equation references identify their central formal use.
+This section defines recurring acronyms and mathematical notation. Symbols are grouped first by the structures shared across the thesis and then by the Part~I and Part~II modelling layers.
 
 \subsection*{Acronyms}
 \begin{description}
@@ -4438,6 +4435,18 @@ This section defines recurring acronyms and mathematical notation. Symbols are g
 
 \vspace{0.2cm}
 
+\noindent\textbf{Explanatory version}
+
+
+
+\begin{center}
+\includegraphics[
+    width=\textwidth,
+    height=0.29\textheight,
+    keepaspectratio
+]{figures/part-II/part2_od_extreme_paths_step3_2035EXPLANATION}
+\end{center}
+
 \noindent\textbf{Simplified version}
 
 
@@ -4447,10 +4456,10 @@ This section defines recurring acronyms and mathematical notation. Symbols are g
     width=\textwidth,
     height=0.39\textheight,
     keepaspectratio
-]{figures/part-II/part2_od_extreme_paths_step3_2035EASY.pdf}
+]{figures/cover/part2_od_extreme_paths_step3_2035EASYTITLE.pdf}
 \end{center}
 
-
+\newpage
 \noindent\textbf{Full version}
 
 
@@ -4471,14 +4480,14 @@ This section defines recurring acronyms and mathematical notation. Symbols are g
 \section*{Acknowledgements}
 \addcontentsline{toc}{section}{Acknowledgements}
 
-I would like to sincerely thank Prof. Dr. Francesco Corman for his expertise, thoughtful advice on what lines of inquiry to follow, and valuable feedback throughout the thesis. I am also deeply grateful to Viera Klasovitá for her exemplary supervision and thoughtful guidance on how best to structure the research and communicate the results.
+I would like to sincerely thank Prof. Dr. Francesco Corman for his expertise, thoughtful insight as to what lines of inquiry to pursue, and valuable feedback throughout the thesis. I am also deeply grateful to Viera Klasovitá for her exemplary supervision and thoughtful guidance on how best to structure the research and communicate the results.
 
 \section*{Data Availability Statement}
 \addcontentsline{toc}{section}{Data Availability Statement}
 
 The thesis source, compact timetable and demand inputs, accepted-edit manifests, analysis and figure-generation code, aggregated results, and reproducibility documentation are available at \url{https://github.com/MaBeAnGa/SwissPeriodicTimetableOptimisation}.
 
-The complete routed scenario matrices are excluded from the repository because of their size. Adding the JSON row states together with the CSV overviews of all four scenarios in both years requires 2.008~TB of storage space. Excluding these CSVs, the canonical JSON archives contain 286.182~GB for Baseline, 286.470~GB for Optimized Step~1, 286.393~GB for Optimized Step~2, and 287.267~GB for Optimized Step~3. The total for all scenarios is 1.146~TB, or 573.449~GB for only the baseline and Step~3. The complete scenario states are available from the author on reasonable request if the requester provides a suitably sized USB drive or equivalent physical storage. When stored locally, these scenario-state files enable the full companion web-app functionality, including timetable queries and targeted analysis for arbitrary OD pairs and municipal/cantonal groupings beyond the summary outputs contained within this thesis.
+The complete routed scenario matrices are excluded from the repository because of their size. Adding the JSON row states together with the CSV overviews of all four scenarios in both years requires 2.008~TB of storage space. Excluding these CSVs, the enriched JSON archives representing fully-detailed OD matrices for each scenario contain 286.182~GB for Baseline, 286.470~GB for Optimized Step~1, 286.393~GB for Optimized Step~2, and 287.267~GB for Optimized Step~3. The total for all scenarios is 1.146~TB, or 573.449~GB for only the baseline and Step~3. The complete scenario states and accompanying visualizer app files are available from the author on reasonable request if the requester provides a suitably sized USB drive or equivalent physical storage. When stored locally, these scenario-state files enable the full companion web-app functionality, including timetable queries and targeted analysis for arbitrary OD pairs and municipal/cantonal groupings beyond the summary outputs contained within this thesis.
 
 \section*{Additional Information}
 \addcontentsline{toc}{section}{Additional Information}
@@ -4490,7 +4499,7 @@ Andrews García, M. B. (2026). \textit{Periodic Timetable Modelling \& Matheuris
 OpenAI Codex GPT-5.5 Extra High was used throughout the thesis for coding assistance, debugging, code review and data-analysis support.
 
 \textbf{Hardware.}
-All computational experiments and analyses reported in this thesis were conducted on a 16-inch Apple MacBook Pro with a 10-core Apple M1 Max processor and 64~GB of RAM. All mentioned processing speeds refer to this hardware where not otherwise cited.
+All computational experiments and analyses reported in this thesis were conducted on a 16-inch Apple MacBook Pro with a 10-core Apple M1 Max processor and 64~GB of RAM. All mentioned processing speeds refer to this hardware configuration.
 
 \textbf{Competing interests.}
 The author declares no competing interests.

@@ -9,6 +9,9 @@ The project has two connected parts. Part I reconstructs historical Swiss passen
 ## Repository Structure
 
 - `thesis/`: final LaTeX source, bibliography, the latest successful compiled thesis PDF, and figures used by the thesis. See `docs/final_thesis_completion_report.md` for the current build status.
+- `executive_summary/`: final two-page executive summary source, bibliography, and compiled PDF.
+- `short_paper/`: final IEEE-style condensed short-paper source, bibliography, compiled PDF, and its included OD-category figure.
+- `poster/`: final A0 poster PDF and editable Affinity Designer source.
 - `part_i/data/`: compact historical timetable, station, OD-weight, and generalized-cost inputs.
 - `part_i/code/`: historical timetable reconstruction, routing, demand weighting, validation, and analysis scripts.
 - `part_i/results/`: final compact validation and aggregate result files.
@@ -57,7 +60,7 @@ Counting the retained monolithic CSV exports alongside the canonical JSON row st
 
 ## Data Provenance
 
-The thesis bibliography and method documentation identify the official NPVM, BFS, SBB, BAV, swisstopo, and timetable sources. The thesis figures are the manually prepared assets from the final Overleaf export `Master_Thesis-3`; only figures referenced by the final TeX source are included. This repository contains the compact research inputs and derived files selected for reproducibility. Large raw archives, caches, experimental runs, and duplicate exports are excluded.
+The thesis bibliography and method documentation identify the official NPVM, BFS, SBB, BAV, swisstopo, and timetable sources. The thesis figures are the manually prepared assets from the final Overleaf export `Master_Thesis-10`; only figures referenced by the final TeX source are included. This repository contains the compact research inputs, derived files, and final dissemination deliverables selected for reproducibility. Large raw archives, caches, experimental runs, and duplicate exports are excluded.
 
 ## Environment
 
