@@ -2,19 +2,19 @@
 
 ## Thesis Changes
 
-- Final abstract and contribution synthesis: `full_thesis.tex:114`.
-- Research questions aligned with the completed analyses: `full_thesis.tex:169`.
-- Matheuristic literature positioning and bounded national-scale contribution claim: `full_thesis.tex:241` and `full_thesis.tex:264`.
-- Refined Part I discussion and transition from measurement to intervention: `full_thesis.tex:1655`.
-- Consolidated Methods II, including dimensionally explicit equations: `full_thesis.tex:1689`.
-- Scenario-wide OD rerouting, dominance reallocation, and cumulative component-share formulation: `full_thesis.tex:3308`.
-- Results II reconciled with the authoritative Overleaf figures: `full_thesis.tex:3452`.
-- Swiss-origin versus complete-OD national mean explanation: `full_thesis.tex:3921`.
-- Corrected reachability and Schlieren interpretation: `full_thesis.tex:4043`.
-- Consolidated Discussion II: `full_thesis.tex:4082`.
-- Consolidated conclusion answering both research questions: `full_thesis.tex:4126`.
-- Rebuilt acronyms and notation with explicit units: `full_thesis.tex:4149`.
-- Updated data availability, acknowledgements, citation, and AI-use declaration: `full_thesis.tex:4305`.
+- Final abstract and contribution synthesis: `thesis.tex:114`.
+- Research questions aligned with the completed analyses: `thesis.tex:169`.
+- Matheuristic literature positioning and bounded national-scale contribution claim: `thesis.tex:241` and `thesis.tex:264`.
+- Refined Part I discussion and transition from measurement to intervention: `thesis.tex:1655`.
+- Consolidated Methods II, including dimensionally explicit equations: `thesis.tex:1689`.
+- Scenario-wide OD rerouting, dominance reallocation, and cumulative component-share formulation: `thesis.tex:3308`.
+- Results II reconciled with the authoritative Overleaf figures: `thesis.tex:3452`.
+- Swiss-origin versus complete-OD national mean explanation: `thesis.tex:3921`.
+- Corrected reachability and Schlieren interpretation: `thesis.tex:4043`.
+- Consolidated Discussion II: `thesis.tex:4082`.
+- Consolidated conclusion answering both research questions: `thesis.tex:4126`.
+- Rebuilt acronyms and notation with explicit units: `thesis.tex:4149`.
+- Updated data availability, acknowledgements, citation, and AI-use declaration: `thesis.tex:4305`.
 
 All active `\rev{}` instructions, revision macros, duplicate draft sections, duplicate labels, obsolete commented tables, TODO text, and placeholder text were removed.
 
@@ -43,16 +43,16 @@ The deduplicated total is 1.146 TB (1.043 TiB).
 ## Repository Package
 
 - Package: `Master Thesis Files/`.
-- Checksummed artifacts: 136 plus `docs/file_manifest.csv`.
-- Core artifact bytes excluding the manifest and this report: 218,755,924.
-- Core-package digest excluding the manifest and this report: `c6cae3d6e46f0089cabd0fb170751e484d20359946e6e8404a76d10164c31fb5`.
+- Checksummed artifacts: 161 plus `docs/file_manifest.csv`.
+- Core artifact bytes excluding the manifest and this report: 287,052,694.
+- Core-package digest excluding the manifest and this report: `4c6da7df44093887e6bdb7ff4abe7260c163e0dbef7bb35286f435868639707a`.
 - No individual package file exceeds GitHub's 100 MB limit.
 - The Evolution application, caches, logs, duplicate exports, large scenario states, and `.DS_Store` files are excluded.
 
 ## Build Verification
 
-- The included PDF is the latest successful Tectonic build from before the final literature-review, Discussion II, and conclusion pass on 21 June 2026. It should be rebuilt from the current `full_thesis.tex` before publication.
-- That prior build completed the full natbib/BibTeX workflow and was visually inspected across the title page, abstract, Methods II equations, authoritative Results II figures, Discussion II, conclusion, notation transition, bibliography, and data-availability page.
+- The included `thesis/thesis.pdf` is the finalized compiled thesis PDF with the signed declaration of originality appended as the final page. The LaTeX source was not modified by the declaration-appending step.
+- The compiled thesis completed the full natbib/BibTeX workflow and was visually inspected across the title page, abstract, Methods II equations, authoritative Results II figures, Discussion II, conclusion, notation transition, bibliography, and data-availability page.
 - Static checks on the current source find all 48 cited keys in `sample.bib`, all 21 figure paths present, balanced braces, no active revision markup or placeholders, and no active duplicate labels.
 - A fresh rendered-PDF verification could not be completed during the final prose pass because the local execution approval quota blocked the Tectonic command.
 

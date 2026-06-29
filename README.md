@@ -8,7 +8,7 @@ The project has two connected parts. Part I reconstructs historical Swiss passen
 
 ## Repository Structure
 
-- `thesis/`: final LaTeX source, bibliography, the latest successful compiled thesis PDF, and figures used by the thesis. See `docs/final_thesis_completion_report.md` for the current build status.
+- `thesis/`: final LaTeX source, bibliography, compiled thesis PDF with the declaration of originality appended, and figures used by the thesis. See `docs/final_thesis_completion_report.md` for the current build status.
 - `executive_summary/`: final two-page executive summary source, bibliography, and compiled PDF.
 - `short_paper/`: final IEEE-style condensed short-paper source, bibliography, compiled PDF, and its included OD-category figure.
 - `poster/`: final A0 poster PDF and editable Affinity Designer source.
@@ -19,7 +19,7 @@ The project has two connected parts. Part I reconstructs historical Swiss passen
 - `part_ii/code/`: demand construction, routing, optimization Steps 1-3, scenario analysis, and figure-generation scripts.
 - `part_ii/results/optimization/`: accepted-edit manifests and compact selection summaries.
 - `part_ii/results/final/`: final corrected Step 3 aggregate results used in Results II.
-- `docs/`: method notes, revision audit, scenario-size accounting, and the checksummed file manifest.
+- `docs/`: method notes, revision audit, scenario-size accounting, Gantt chart, and the checksummed file manifest.
 
 The Evolution of Swiss Passenger Rail Schedules application is intentionally excluded from this repository.
 

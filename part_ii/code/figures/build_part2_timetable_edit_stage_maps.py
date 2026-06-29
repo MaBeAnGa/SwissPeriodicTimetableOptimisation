@@ -16,7 +16,7 @@ from matplotlib.patches import Circle, ConnectionPatch, Polygon, Rectangle, Wedg
 
 ROOT = Path(__file__).resolve().parents[2]
 FIG_DIR = ROOT / "figures" / "part-II"
-THESIS_TEX = ROOT / "full_thesis.tex"
+THESIS_TEX = ROOT / "thesis" / "thesis.tex"
 BOUNDARIES = ROOT / "historical_swiss_boundaries.js"
 STATION_GEOM = ROOT / "swiss_municipality_station_geometries.json"
 STEP3_SEGMENT_DIR = Path(
